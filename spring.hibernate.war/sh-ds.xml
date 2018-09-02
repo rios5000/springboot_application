@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+	<local-tx-datasource>
+		<jndi-name>SHDS</jndi-name>	
+	    <connection-url>jdbc:sqlite:/Volumes/Data/SQLITE/SQLiteDB000.db</connection-url>
+	    <driver-class>org.sqlite.JDBC</driver-class>
+	    <min-pool-size>2</min-pool-size>
+	    <max-pool-size>10</max-pool-size>
+	    <user-name></user-name>
+	    <password></password>
+	</local-tx-datasource>
+</datasources>
+
+
+<!-- 
+	    <driver-class>org.sqlite.JDBC</driver-class>
+ -->
